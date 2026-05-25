@@ -17,7 +17,7 @@ Standard, Deluxe, and Suite room categories
 Room booking system
 Reservation cancellation
 Payment simulation
-Pre-booked rooms support
+Pre-booked rooms support for real world hotel reservation experience 
 OOP-based design using classes and objects
 Simple menu-driven interface
 
@@ -54,30 +54,30 @@ Room Type	Room Numbers
 Standard	101 - 130
 Deluxe	201 - 230
 Suite	301 - 330
+
+
 Functionalities
 Display Available Rooms
 
 Shows only rooms that are currently available.
 
-Book Room
-User selects room number
-Payment simulation occurs
-Room becomes booked after successful payment
-Cancel Reservation
-
 Booked rooms can be cancelled and made available again.
+
+
 
 Project Structure
 Task2_CodeAlpha.java
-│
-├── Room Class
-│
-├── Hotel Class
-│   ├── displayRooms()
-│   ├── bookRoom()
-│   └── cancelRoom()
-│
-└── Main Method
+
+ Room Class
+
+ Hotel Class
+    displayRooms()
+    bookRoom()
+    cancelRoom()
+
+ Main Method
+
+
 Sample Output
 ========== HOTEL RESERVATION SYSTEM ==========
 
